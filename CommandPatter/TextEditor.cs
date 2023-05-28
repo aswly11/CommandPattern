@@ -26,7 +26,7 @@ namespace CommandPatter
             if (_commandHistory.Count > 0)
             {
                 ICommand lastCommand = _commandHistory.Pop();
-                lastCommand.Undo(); // Implement undo functionality in each command
+                lastCommand.Undo(); 
             }
         }
     }
